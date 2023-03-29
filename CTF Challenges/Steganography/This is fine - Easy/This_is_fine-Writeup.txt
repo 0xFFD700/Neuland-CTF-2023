@@ -1,0 +1,12 @@
+#### This is fine - Easy
+
+<img src="https://0xffd700.com/bl-content/uploads/pages/8d3983d31ab9ba458b351d2e8dc8eaa9/this-is-fine.jpg" alt="">
+
+</br>
+
+The flag is hidden in the EXIF tag **Flash maker**. The property can be viewed using the strings or exif command on Linux or the Explorer Properties of the picture.
+
+<img src="https://0xffd700.com/bl-content/uploads/pages/8d3983d31ab9ba458b351d2e8dc8eaa9/this_is_fine_propaties.png" alt="">
+</br>
+
+The flag is ```nland{7H3y_5ho7_4_GOr1LL4_fOR_GOD554k3}```.

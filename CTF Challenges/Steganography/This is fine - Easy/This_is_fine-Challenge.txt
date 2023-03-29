@@ -1,0 +1,7 @@
+This is fine.
+
+Kategorie: Stego
+Schwierigkeit: Easy
+Author: Jen
+
+<this-is-fine.jpg>
