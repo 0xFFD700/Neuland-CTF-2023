@@ -27,11 +27,15 @@ Flag-Format: nland{}
 - [ ] SIEM 1 - Easy (Jen)
 - [ ] SIEM 2 - Medium (Jen)
 - [ ] SIEM 3 - Hard (Jen)
+- [ ] File format 1 (Kevin)
+- [ ] File format 2 (Kevin)
+- [ ] File format 3 (Kevin)
 
 ### PWN
 
 ### REV
 - [ ] Enter correct password - Easy (Jen)
+- [ ] String stacking (Kevin)
 
 ### Misc
 - [ ] Lockpicking - Medium (Jen)
