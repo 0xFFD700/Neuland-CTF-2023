@@ -27,9 +27,9 @@ Flag-Format: nland{}
 - [ ] SIEM 1 - Easy (Jen)
 - [ ] SIEM 2 - Medium (Jen)
 - [ ] SIEM 3 - Hard (Jen)
-- [ ] File format 1 (Kevin)
-- [ ] File format 2 (Kevin)
-- [ ] File format 3 (Kevin)
+- [ ] File format 1 - Easy (Kevin)
+- [ ] File format 2 - Medium  (Kevin)
+- [ ] File format 3 - Hard  (Kevin)
 
 ### PWN
 
@@ -39,3 +39,4 @@ Flag-Format: nland{}
 
 ### Misc
 - [ ] Lockpicking - Medium (Jen)
+- [ ] [Benford's Law](https://en.wikipedia.org/wiki/Benford%27s_law) - Medium (Kevin)
