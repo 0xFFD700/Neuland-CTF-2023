@@ -6,6 +6,7 @@ Flag-Format: nland{}
 ### Crypto
 - [ ] Basic RSA - Easy (Jen)
 - [x] Secrets (Basic Encoding/Encryption) - Easy (Jen)
+- [x] FIPS Aesmussen - Hard (Dominik)
 
 ### OSINT
 - [ ] Find Photo Location - Easy (Jen)
