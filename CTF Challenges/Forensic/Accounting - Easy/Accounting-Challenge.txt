@@ -1,0 +1,9 @@
+Accounting 
+
+Kategorie: Forensic
+Schwierigkeit: Easy
+Author: Jen
+
+An employee from the finance department downloaded an accounting template from the Internet; now he is writing an e-mail to the helpdesk that his computer is behaving strangely.
+
+Download: Abrechnung_2023.xlsm

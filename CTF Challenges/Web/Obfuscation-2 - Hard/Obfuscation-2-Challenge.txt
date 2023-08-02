@@ -1,0 +1,10 @@
+Obfuscation 2
+
+Kategorie: Web
+Schwierigkeit: Hard
+Author: Jen
+
+obfuscation-meme.webp
+Image source: https://programmerhumor.io/wp-content/uploads/2023/06/programmerhumor-io-programming-memes-b95b15001bfec62.jpg
+
+Download: Obfuscation-2.js

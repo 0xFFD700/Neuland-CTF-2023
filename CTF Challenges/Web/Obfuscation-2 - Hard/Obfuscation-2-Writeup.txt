@@ -1,0 +1,37 @@
+#### Obfuscation 2 - Medium
+
+const flag = ["nland{", "08SHFpnG10A_", "MFJf", "01000101 01111000 00110000 01110100 00110001 01100011 01011111", "bj]CpKN"]
+
+function decodeBinary(b) {
+    b = b.split(' ').map(elem => parseInt(elem,2))
+    b = b.map(elem => String.fromCharCode(elem))
+    return b.join("")
+}
+
+function rot13(m) {
+      const alphabet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+  const cipher = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM"
+  return m.replace(/[a-z]/gi, letter => cipher[alphabet.indexOf(letter)])
+}
+
+function xor_d(m, key)
+{
+   var ord = []; var res = ""; var i;
+
+   for (i = 1; i <= 255; i++) {ord[String.fromCharCode(i)] = i}
+
+   for (i = 0; i < m.length; i++)
+       res += String.fromCharCode(ord[m.substr(i, 1)] ^ ord[key.substr(i % key.length, 1)]);
+
+   return(res);
+}
+
+console.log(flag[0])
+console.log(rot13(flag[1])) //ROT13
+console.log(atob(flag[2])) //Base64
+console.log(decodeBinary(flag[3])) //Binary
+console.log(xor_d(flag[4],"1337")) // XOR Key:6
+
+-->
+
+nland{08FUScaT10N_0R_Ex0t1c_SYntAx}
