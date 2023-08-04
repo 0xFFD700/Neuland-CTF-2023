@@ -9,7 +9,8 @@ Flag-Format: nland{}
 - [x] FIPS Aesmussen - Hard (Dominik)
 
 ### OSINT
-- [ ] Find Photo Location - Easy (Jen)
+- [x] Find Photo Location - Easy (Jen)
+- [ ] DTMF Code in Video - Medium (Jen)
 
 ### Web
 - [x] Obfuscated JS 1 - Easy (Jen)

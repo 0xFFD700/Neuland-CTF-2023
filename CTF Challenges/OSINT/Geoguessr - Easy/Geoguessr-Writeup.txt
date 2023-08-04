@@ -1,0 +1,10 @@
+#### Geoguessr - Easy
+
+*Can you find out which mountains I vacationed in last year? (Flag format nland{name of  mountainous area} in all lowercase)*
+
+<img src="https://0xffd700.com/bl-content/uploads/pages/994d4943c83ce4ee8a4a49b79cdcda47/Geoguessr.jpg" alt="">
+</br>
+
+We get an image of a mountain range with no apparent clues. A good starting point for this type of task is [Google Images](https://images.google.de/). Images refers us to Besseggen, a piece of the Jotunheimen mountain range in Norway.
+
+The flag is ```nland{besseggen}``` or ```nland{jotunheimen}```

@@ -1,0 +1,11 @@
+Geoguessr
+
+Kategorie: OSINT
+Schwierigkeit: Easy
+Author: Jen
+
+Can you find out which mountains I vacationed in last year?
+
+Flag format nland{<name of  mountainous area>} in all lowercase
+
+Geoguessr.jpg
