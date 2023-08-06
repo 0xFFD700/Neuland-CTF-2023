@@ -4,17 +4,17 @@ https://ctf.neuland-ingolstadt.de/
 Flag-Format: nland{}
 
 ### Crypto
-- [x] Basic RSA - Easy (Jen)
+- [x] RSA (Basic RSA) - Easy (Jen)
 - [x] Secrets (Basic Encoding/Encryption) - Easy (Jen)
 - [x] FIPS Aesmussen - Hard (Dominik)
 
 ### OSINT
-- [x] Find Photo Location - Easy (Jen)
+- [x] Geoguessr (Find Photo Location) - Easy (Jen)
 - [ ] DTMF Code in Video - Medium (Jen)
 
 ### Web
-- [x] Obfuscated JS 1 - Easy (Jen)
-- [ ] Obfuscated JS 2 - Hard (Jen)
+- [x] Obfuscation 1 (Obfuscated JS) - Easy (Jen)
+- [x] Obfuscation 2 (Obfuscated JS) - Hard (Jen)
 
 ### Stego
 - [x] This is fine (Flag in image properties) - Easy (Jen)

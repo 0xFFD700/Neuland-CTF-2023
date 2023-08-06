@@ -1,0 +1,12 @@
+Lockpicking
+
+Kategorie: MISC
+Schwierigkeit: Medium
+Author: Jen
+
+
+
+
+Lockpicking: Open a lock with an instrument other than the proper key.
+
+Pick up a lock, pick, and tension wrench at the front and bring the opened lock to the CTF orga to get the flag.
