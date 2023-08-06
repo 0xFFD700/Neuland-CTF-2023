@@ -1,14 +1,10 @@
-#### Obfuscation 1 - Easy
+#### Lockpicking - Medium
 
-DOC{Obfuscation-1.js; Obfuscation-1; Obfuscated JS File}
+*Open a lock with an instrument other than the proper key.
+Pick up a lock, pick, and tension wrench at the front and bring back the opened lock to the CTF orga to get the flag.*
 
+<img src="https://0xffd700.com/bl-content/uploads/pages/118a47690d2b6716fdd2a343b97d55dc/lockpicking.jpg" alt="">
 </br>
-The title of the challenge already gives us an indication of the correct solution. Obfuscation is used in programming to make source code more difficult for humans to read and to prevent recovery. If we look at the obfuscated JavaScript file, the first thing that catches our eye is an array with several strings. Based on the backslashes and format, this is ASCII code presented in hexadecimal format. Luckily this encoding is machine friendly, and our browser can handle it very well; a simple console.log decodes the strings into human-readable words. The string ***\x6E\x6C\x61\x6E\x64\x7B*** is translated to ***nland{***. We seem to be on the right track. The dinge() function appears to put our encoded strings in the correct order and stores them in the const flag. To capture the flag, we must run the dinge() function and print the resulting array.
-</br>
-<img src="https://0xffd700.com/bl-content/uploads/pages/2f711d9a0be5024755eb3fac7069fb84/dinge().png" alt="">
-</br>
+The objective is simple; the lock must be opened using the included pick and tension wrench. A good resource for beginners is the [MIT Lockpicking Guide](https://blog.ssdev.org/lockpicking/MIT_D/MIT-Handbuch.pdf).
 
-The flag is 
-```
-nland{no7_sur3_1F_F1Rs7_y34R_pro9R4MM3R_oR_o8fUsc473d_m4lw4R3}
-```
+The flag is ```nland{T3D_Th3_TooL}```

@@ -39,5 +39,5 @@ Flag-Format: nland{}
 - [ ] String stacking (Kevin)
 
 ### Misc
-- [ ] Lockpicking - Medium (Jen)
+- [x] Lockpicking - Medium (Jen)
 - [ ] [Benford's Law](https://en.wikipedia.org/wiki/Benford%27s_law) - Medium (Kevin)

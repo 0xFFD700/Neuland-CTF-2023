@@ -4,9 +4,7 @@ Kategorie: MISC
 Schwierigkeit: Medium
 Author: Jen
 
+Open a lock with an instrument other than the proper key.
+Pick up a lock, pick, and tension wrench at the front and bring back the opened lock to the CTF orga to get the flag.
 
-
-
-Lockpicking: Open a lock with an instrument other than the proper key.
-
-Pick up a lock, pick, and tension wrench at the front and bring the opened lock to the CTF orga to get the flag.
+lockpicking.jpg
