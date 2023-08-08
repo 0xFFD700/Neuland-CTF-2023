@@ -1,0 +1,9 @@
+Dail in
+
+Kategorie: OSINT
+Schwierigkeit: Medium
+Author: Jen
+
+We are looking for one of the accomplices of the well-known group @0xc0c0c0ctf, which has been involved in multiple Bitcoin scams. We know that they talk to each other regularly on the phone. Find his phone number.
+
+Flag format: nland{<phone number>}

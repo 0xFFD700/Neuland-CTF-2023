@@ -1,0 +1,8 @@
+#### Dail in - Medium
+
+*We are looking for one of the accomplices of the well-known group @0xc0c0c0ctf, which has been involved in multiple Bitcoin scams. We know that they talk to each other regularly on the phone. Find his phone number. Flag format: nland{<phone number>}*
+</br>
+
+The challenge already tells us the hacker group's name, which is why we can easily search for their social media presence. An automatic [Social Media Handle Checker](https://brandsnag.com/social-media-handle-checker) can quickly search for accounts on multiple platforms. Our hacker group has a Twitter account whose content matches their area of interest, Bitcoin. After a few dead ends and detours to Ethereum and Reddit, we came across a [video](https://twitter.com/0xc0c0c0ctf/status/1688861202397405184) in which a telephone keypad can be heard in addition to office noises. The sounds resemble DTMF (dual-tone multi-frequency signaling), a dialing technique commonly used in analog telephone technology. We remember that in some posts, it is mentioned that the hacker group does not trust any modern technology except the blockchain and does everything as analog as possible to avoid being caught. And we were right; an online [DTMF button key decoder](https://unframework.github.io/dtmf-detect/) spits out a phone number.
+
+The flag is ```nland{00133731415}```

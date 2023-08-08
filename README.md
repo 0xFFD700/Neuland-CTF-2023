@@ -10,7 +10,7 @@ Flag-Format: nland{}
 
 ### OSINT
 - [x] Geoguessr (Find Photo Location) - Easy (Jen)
-- [ ] DTMF Code in Video - Medium (Jen)
+- [x] Dail in (DTMF Code in Video) - Medium (Jen)
 
 ### Web
 - [x] Obfuscation 1 (Obfuscated JS) - Easy (Jen)
@@ -21,7 +21,7 @@ Flag-Format: nland{}
 - [ ] Binary Data in YouTube Video - Hard (Jen)
 - [ ] Brainfuck Catpiler - Hard (Jen)
 
-### Forensik / Blue Team
+### Blue Team
 - [ ] USB Stick File Forensic - Medium (Jen)
 - [ ] Excel Macro Malware- Easy (Jen)
 - [ ] Malware Beacon Detection - Medium (Jen)
