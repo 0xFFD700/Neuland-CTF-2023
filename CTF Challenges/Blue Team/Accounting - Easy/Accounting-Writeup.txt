@@ -1,4 +1,34 @@
+</br>
+Download challenges: [Neuland CTF Repository](https://github.com/0xFFD700/Neuland-CTF-2023)
+
+</br>
+
 #### Accounting - Easy
+
+*An employee from the finance department downloaded an accounting template from the Internet; now he is writing an e-mail to the helpdesk that his computer is behaving strangely.*
+DOC{Abrechnung_2023.xlsm;Abrechung_2023;Accounting Template}
+</br>
+
+We receive an Excel file with a seemingly ordinary payroll table that prompts us to activate macros. After activating macros, multiple notepads open with the text "Hacked!!!". The hacker used the VBA macros to take over our computer. This is fine. We can look closer at the code used via the developer tools.
+
+```
+Private Sub Workbook_Open()
+Dim z8a9fa09fd5f8180f361a949fb207feea As Integer
+For z8a9fa09fd5f8180f361a949fb207feea = 0 To 5
+n6df744f79d2e0f38bd80503af826d2c6 = Shell("Notepad", vbNormalFocus)
+SendKeys "Hacked!!!", True
+Next z8a9fa09fd5f8180f361a949fb207feea
+Dim objUserEnvVars As Object
+Set objUserEnvVars = CreateObject("WScript.Shell").Environment("User")
+objUserEnvVars.Item("YOU_GOT_PWNED_NEULAND") = Range("X117").Value + Range("F153").Value + Range("AI254").Value + Range("B749").Value
+For z8a9fa09fd5f8180f361a949fb207feea = 0 To 5
+n6df744f79d2e0f38bd80503af826d2c6 = Shell("Notepad", vbNormalFocus)
+SendKeys "Hacked!!!", True
+Next z8a9fa09fd5f8180f361a949fb207feea
+End Sub
+```
+
+Since none of the Notepads contain the flag, we'll focus on line 7 and beyond. Here an ***objUserEnvVars*** is created to manage user environment variables. In the following line, we get the value from different cells and save them in the environment variable ***YOU_GOT_PWNED_NEULAND***. If we take a closer look at these cells in the Excel file, we see that they contain text hidden by the white text color. You get the flag if you put all the cells together or look at the newly created environment variable.
 
 The flag is 
 ```

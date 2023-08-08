@@ -23,7 +23,7 @@ Flag-Format: nland{}
 
 ### Blue Team
 - [ ] USB Stick File Forensic - Medium (Jen)
-- [ ] Excel Macro Malware- Easy (Jen)
+- [x] Accounting (Excel Macro Malware)- Easy (Jen)
 - [ ] Malware Beacon Detection - Medium (Jen)
 - [ ] SIEM 1 - Easy (Jen)
 - [ ] SIEM 2 - Medium (Jen)
