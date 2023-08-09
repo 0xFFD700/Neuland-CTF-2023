@@ -1,0 +1,14 @@
+#### Rick roll - Medium
+
+*I found a new way to save my ZIP files safely. Definitely not hackable.*
+DOC{rick_roll.avi;rick_roll.avi;AVI File}
+</br>
+
+The video only displays black and white pixels. Files consist of bits that are represented by 0/1 or on/off. This encoding also works with black and white squares, which could be used to store data in video form. Now you could write a script to get the data back from the video; fortunately, some useful scripts are already on GitHub. A possible solution is the Infinite Storage Glitch created by DvorakDwarf.
+
+<img src="https://0xffd700.com/bl-content/uploads/pages/bf95efabd4b167264d492d7ba2519748/rick_roll.jpeg" alt="">
+
+The flag is 
+```
+nland{1nf1N1t3_St0rag3_gL1tch}
+```

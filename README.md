@@ -18,7 +18,7 @@ Flag-Format: nland{}
 
 ### Stego
 - [x] This is fine (Flag in image properties) - Easy (Jen)
-- [ ] Binary Data in YouTube Video - Hard (Jen)
+- [x] Rick roll (Binary Data in YouTube Video) - Medium (Jen)
 - [ ] Brainfuck Catpiler - Hard (Jen)
 
 ### Blue Team
