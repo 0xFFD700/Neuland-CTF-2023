@@ -1,0 +1,7 @@
+#### For old times sake - Easy
+
+*What did the yellow dot on the Google front page draw on the window on Christmas 2016? Flag format nland{<drawing>} in all lowercase*
+
+For tasks that require web content at an earlier stage, the [Wayback Machine](https://web.archive.org/web/20161224150735/https://www.google.de/) is a good place to start. If we select the web address of Google on 24.13.2016, we can see that a star is drawn on the glass.
+
+The flag is ```nland{star}```

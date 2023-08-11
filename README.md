@@ -10,7 +10,7 @@ Flag-Format: nland{}
 
 ### OSINT
 - [x] Geoguessr (Find Photo Location) - Easy (Jen)
-- [ ] WayBack Maschine - Easy (Jen)
+- [x] For old times sake (WayBack Maschine) - Easy (Jen)
 - [x] Dail in (DTMF Code in Video) - Medium (Jen)
 
 ### Web

@@ -1,0 +1,9 @@
+For old times sake
+
+Kategorie: OSINT
+Schwierigkeit: Easy
+Author: Jen
+
+What did the yellow dot on the Google front page draw on the window on Christmas 2016?
+
+Flag format nland{<drawing>} in all lowercase
