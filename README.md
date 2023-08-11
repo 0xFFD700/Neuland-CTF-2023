@@ -15,13 +15,14 @@ Flag-Format: nland{}
 
 ### Web
 - [x] Obfuscation 1 (Obfuscated JS) - Easy (Jen)
-- [x] Obfuscation 2 (Obfuscated JS) - Hard (Jen)
 - [x] InfoSec Academy (Local File Inclusion) - Easy (Fabi)
 - [x] Review (File Upload) - Medium (Fabi)
+- [x] Obfuscation 2 (Obfuscated JS) - Hard (Jen)
 - [x] Review (File Upload) - Hard (Fabi)
 
 ### Stego
 - [x] This is fine (Flag in image properties) - Easy (Jen)
+- [x] (^_^) (Obfuscated JS) - Easy (Fabi)
 - [x] Rick roll (Binary Data in YouTube Video) - Medium (Jen)
 - [ ] Brainfuck Catpiler - Hard (Jen)
 
@@ -45,7 +46,7 @@ Flag-Format: nland{}
 - [ ] String stacking (Kevin)
 
 ### Misc
+- [x] KeePass (CVE-2023-24055) - Easy (Fabi)
 - [x] Lockpicking - Medium (Jen)
 - [ ] [Benford's Law](https://en.wikipedia.org/wiki/Benford%27s_law) - Medium (Kevin)
-- [x] (^_^) (Obfuscated JS) - Easy (Fabi)
-- [x] KeePass (CVE-2023-24055) - Easy (Fabi)
+
