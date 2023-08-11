@@ -1,0 +1,7 @@
+Review
+
+Kategorie: Web
+Schwierigkeit: Hard
+Author: Fabi
+
+After our website was compromised, we had to redesign our backend. Unfortunately, we lost all our data, so we kindly ask you to share your review again. We are confident that our improved security measures keep us safe from hackers.

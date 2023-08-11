@@ -1,0 +1,7 @@
+InfoSec Academy
+
+Kategorie: Web
+Schwierigkeit: Easy
+Author: Fabi
+
+At InfoSec Academy, we are dedicated to shaping the next generation of cybersecurity professionals. Our mission is to empower individuals with the knowledge, skills, and expertise needed to navigate the dynamic and ever-evolving world of digital security.

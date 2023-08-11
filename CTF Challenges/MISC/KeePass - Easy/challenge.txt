@@ -1,0 +1,8 @@
+KeePass
+
+Kategorie: Forensic
+Schwierigkeit: Easy
+Author: Fabi
+
+Last year, we captured a memory dump of a locked Keepass process along with its corresponding Keepass database. Unfortunately, our attempts to unlock it have not been successful. Can you assist us to open the database?
+https://1drv.ms/u/s!AjV60tm-yywKgcYpDfDLDgm7V8dacA?e=CLJD0f
