@@ -10,6 +10,7 @@ Flag-Format: nland{}
 
 ### OSINT
 - [x] Geoguessr (Find Photo Location) - Easy (Jen)
+- [ ] WayBack Maschine - Easy (Jen)
 - [x] Dail in (DTMF Code in Video) - Medium (Jen)
 
 ### Web
@@ -35,7 +36,9 @@ Flag-Format: nland{}
 ### PWN
 
 ### REV
-- [ ] Enter correct password - Easy (Jen)
+- [x] Login (Enter correct password) - Easy (Jen)
+- [ ] .NET Product Key - Easy (Jen)
+- [ ] Packed + Obfuscated exe - Medium (Jen)
 - [ ] String stacking (Kevin)
 
 ### Misc

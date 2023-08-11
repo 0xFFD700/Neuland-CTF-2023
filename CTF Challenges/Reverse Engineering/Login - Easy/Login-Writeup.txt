@@ -1,0 +1,15 @@
+#### Login - Easy
+
+*Log into my account to get the flag.*
+DOC{login.exe;login.exe;Login}
+
+</br>
+
+We get a portable executable with the MD5 hash ***A97F6CA98E275F846150A4E1EC45FBD0***. A closer look in a PE editor and process viewer like [CFF Explorer](https://ntcore.com/?page_id=388) tells us the file is probably not packed or compressed. Strings can be identified, and in the ***IMAGE_SECTION_HEADER*** the raw data size roughly corresponds to the virtual data size. This should enable us to read the strings used in the program code without using a software reverse engineering framework like [Ghidra](https://ghidra-sre.org/). We can search for the string ***nland{*** in the Ascii representation under the Hex Editor tab to find the rest of the flag.
+
+<img src="https://0xffd700.com/bl-content/uploads/pages/c115de41c0f825ede7d713d2aff8c9f7/login.png" alt="">
+
+The flag is 
+```
+nland{NEw_P422w0rD_c4NN07_8E_7HE_54mE_45_Y0u_0ld_p422W0rd}
+```
