@@ -2,7 +2,7 @@ name: FIPS AESmussen
 # Long form description.
 description: "Whosoever holds this token, if he be admin, shall possess the power of Flag."
 # The flag
-flag: "!! PUT IN ./challenge/flask/uploads/admin !!"
+flag: "nland{Brennholzverleih}"
 # Task category. (one of hw, crypto, pwn, reversing, web, net, misc)
 category:
   - web

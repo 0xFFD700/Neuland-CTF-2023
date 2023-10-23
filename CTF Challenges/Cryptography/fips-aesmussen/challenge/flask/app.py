@@ -44,7 +44,7 @@ def snippet(user = None, claims = None):
             token = issue_token(claims)
             return { "token": token }
         case _:
-            return Reponse(status=405)
+            return Response(status=405)
 
 if __name__ == "__main__":
 	app.run()
