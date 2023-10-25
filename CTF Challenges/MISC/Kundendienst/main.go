@@ -8,7 +8,6 @@ import (
 	"math/rand"
 	"net"
 	"os"
-	"regexp"
 	"runtime"
 	"strings"
 
@@ -35,7 +34,12 @@ var (
 	gpulayers = 0
 	seed      = -1
 )
-var requestChannel, responseChannel = make(chan string), make(chan string)
+var requestChannel = make(chan LLMRequest)
+
+type LLMRequest struct {
+	prompt   string
+	response chan string
+}
 
 func handleConnection(conn net.Conn) {
 	defer conn.Close()
@@ -44,7 +48,7 @@ func handleConnection(conn net.Conn) {
 
 	// Buffer to read and write data
 	clientLog := strings.Clone(PROMPT)
-	r, _ := regexp.Compile("(.*)<\\|\\S+\\|>")
+	// r, _ := regexp.Compile("(.*)<\\|\\S+\\|>")
 
 	s := bufio.NewScanner(conn)
 	conn.Write([]byte("> "))
@@ -54,22 +58,22 @@ func handleConnection(conn net.Conn) {
 		message := fmt.Sprintf("<|im_start|>user\n%s<|im_end|>\n<|im_start|>assistant", read_line)
 		clientLog += message
 
-		requestChannel <- clientLog
-		response := <-responseChannel
+		request := LLMRequest{prompt: clientLog, response: make(chan string)}
 
-		clientLog += response
-		matches := r.FindStringSubmatch(response)
-		if len(matches) >= 2 {
-			message = matches[1]
-
-			_, err := conn.Write([]byte(message + "\n> "))
-			if err != nil {
-				log.Println("Error writing:", err)
-				return
+		requestChannel <- request
+		for token := range request.response {
+			clientLog += token
+			switch token {
+			case "<|im_end|>":
+			default:
+				_, err := conn.Write([]byte(token))
+				if err != nil {
+					log.Println("Error writing:", err)
+					return
+				}
 			}
-		} else {
-			continue
 		}
+		conn.Write([]byte("> "))
 	}
 
 	log.Printf("Client disconnected (ID: %d)\n", clientID)
@@ -92,7 +96,7 @@ func writeMessagesToFile(fileName, message string) {
 	}
 }
 
-func processClientMessages() {
+func llm_loop() {
 	// Load Model
 	l, err := llama.New(model, llama.EnableF16Memory, llama.SetContext(context), llama.EnableEmbeddings, llama.SetGPULayers(gpulayers))
 	if err != nil {
@@ -103,17 +107,18 @@ func processClientMessages() {
 	_ = l
 
 	for {
-		message := <-requestChannel
+		request := <-requestChannel
 
-		var response string
-		_, err := l.Predict(message, llama.SetTokenCallback(func(token string) bool {
-			response += token
+		_, err := l.Predict(request.prompt, llama.SetTokenCallback(func(token string) bool {
+			request.response <- token
 			return true
 		}), llama.SetTokens(tokens), llama.SetThreads(threads), llama.SetTopK(90), llama.SetTopP(0.86), llama.SetStopWords("<|im_end|>"), llama.SetSeed(seed))
 		if err != nil {
 			panic(err)
 		}
-		responseChannel <- response + "\n"
+		request.response <- "\n"
+
+		close(request.response)
 	}
 }
 
@@ -143,7 +148,7 @@ func main() {
 	defer listener.Close()
 
 	// Start the goroutine to process client messages
-	go processClientMessages()
+	go llm_loop()
 
 	// Create a channel to control the number of concurrent clients
 	maxClients := 8
