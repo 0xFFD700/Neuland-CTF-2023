@@ -1,0 +1,12 @@
+All the Colors of Christmas
+
+Kategorie: Crypto
+Schwierigkeit: Medium
+Author: Jen
+
+Santa has a message for you.
+(Flag format nland{<message>} in all lowercase)
+
+The challenge is at the front of the room. Please do not touch!
+
+xmas.jpeg

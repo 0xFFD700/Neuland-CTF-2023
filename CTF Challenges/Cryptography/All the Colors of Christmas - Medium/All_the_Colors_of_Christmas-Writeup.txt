@@ -1,0 +1,29 @@
+#### All the Colors of Christmas - Medium
+
+*Santa has a message for you.
+(Flag format nland{<message>} in all lowercase)*
+
+<img src="https://0xffd700.com/bl-content/uploads/pages/8d3983d31ab9ba458b351d2e8dc8eaa9/xmas.jpeg" alt="">
+
+</br>
+An LED-illuminated Christmas tree is provided to solve the task, which regularly changes its colors. After looking at it for a while, the following features become apparent:
+- 6 different colors (green, yellow, blue, light blue, pink, red)
+- The 6th color is displayed longer
+- After 18 colors, the Christmas tree shuts down and starts again from the beginning
+
+With this information, we can create the following pattern:
+
+|   |   |    |   |    |   | 
+|---|---|---|---|---|---|
+| green | yellow | yellow | blue | red | green |
+| red | blue | light blue| pink | yellow | blue |
+| light blue | pink | green | red | pink | light blue |
+
+A quick Google search shows that only a few cryptographic algorithms use colors as a form of representation. One of them is Hexahue, which uses the same colors.
+
+Enter the color combination into an [online decoder](https://www.dcode.fr/hexahue-cipher) and get the word hoe.
+
+<img src="https://0xffd700.com/bl-content/uploads/pages/8d3983d31ab9ba458b351d2e8dc8eaa9/hexahue.png" alt="">
+</br>
+
+The flag is ```nland{hoe}```
