@@ -1,0 +1,73 @@
+Liebe Kommilitoninnen und Kommilitonen,
+
+du willst hacken lernen oder deine Fähigkeiten in der IT-Sicherheit gegenüber deinen Kommilitonen unter Beweis stellen?
+Dann haben wir gute Neuigkeiten, auch dieses Semester wird es wieder einen Neuland CTF geben.
+
+Capture the Flag (CTF) ist ein Wettbewerb, der es euch ermöglicht legal zu hacken und spannende Challenges zu lösen.
+Für jeden richtige Challenge gibt es eine Flagge, die dir Punkte und einen Platz auf dem Scoreboard sichert.
+Es werden keine Vorkenntnisse benötigt, der CTF beinhaltet Aufgaben in verschiedenen Kategorien und Schwierigkeitsstufen.
+
+Das Event findet am 09.12.2023 an der Technische Hochschule Ingolstadt im Raum G215 statt.
+
+Zeitplan:
+- 10:30 - 11:00 Uhr Begrüßung und Einführung
+- 11:00 - 19:00 Uhr CTF Wettkampfzeitraum
+- 19:00 - 21:00 Uhr Get Together 
+
+Bitte beachtet, dass eine Teilnahme nur nach Anmeldung unter https://ctf.neuland-ingolstadt.de/ möglich ist!
+Ihr könnt alleine oder mit einem Team von bis zu 3 Personen teilnehmen. 
+
+Preise: 
+1. Team: 250 € 
+2. Team: 150 €
+3. Team: 100 €
+4. and 5. Team: 15 € Gutschein pro Teammitglied
+
+Neben Preisen für die besten Teilnehmer stellen wir Getränke, Mittag- und Abendessen sowie T-Shirts und Sticker für alle Teilnehmer.
+
+Dieses Event wurde möglich gemacht durch die freundliche Unterstützung unserer Sponsoren:
+- MBDA (https://www.mbda-deutschland.de/)
+- Securai (https://www.securai.de/)
+- iSecNG (https://www.isecng.de/)
+- Donat IT (https://www.donat-it.de/)
+
+
+Euer Neuland CTF Team :)
+
+---
+
+Dear fellow students,
+
+Do you want to learn how to hack or challenge your skills in IT security?
+There is good news, Neuland CTF returns this semester.
+
+Capture the Flag (CTF) is a competition that allows you to hack legally and solve exciting challenges.
+For each correct challenge there is a flag that will grant you points and a place on the scoreboard.
+No previous knowledge is required, the CTF contains tasks in different categories and levels of difficulty.
+
+The event will take place on December 9rd, 2023 at the Technische Hochschule Ingolstadt in the room G215.
+
+Time schedule:
+- 10:30 a.m. - 11:00 a.m. Opening and introduction
+- 11:00 a.m. - 07:00 p.m. CTF competition time
+- 07:00 p.m. - 09:00 p.m. Get together
+
+Please note that participation is only possible after registration at https://ctf.neuland-ingolstadt.de/!
+You can participate alone or with a team of up to 3 people.
+
+Prices:
+1st team: 250 €
+2nd team: 150 €
+3rd team: 100 €
+4th - 5th team: 15 € voucher for each team member
+
+In addition to prizes for the best participants, we will provide drinks, lunch and dinner as well as T-shirts and stickers for all participants.
+
+This event was made possible with the kind support of our sponsors:
+- MBDA (https://www.mbda-deutschland.de/)
+- Securai (https://www.securai.de/)
+- iSecNG (https://www.isecng.de/)
+- Donat IT (https://www.donat-it.de/)
+
+
+Your Neuland CTF team :)
