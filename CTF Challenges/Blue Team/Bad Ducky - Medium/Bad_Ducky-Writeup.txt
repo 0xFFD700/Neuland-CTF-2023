@@ -1,0 +1,19 @@
+#### Bad Ducky - Easy
+
+*You found a USB stick on the floor, of course you plug it into your private computer. What was the previous owner up to?*
+
+</br>
+
+To solve the problem, we received a black USB stick with no external peculiarities. After plugging it into a computer, the USB stick mounts with the meaningless name "Generic Flash Disk USB Drive". There is a file in which the BSI describes the correct handling of removable storage devices. No further data can be found even after activating hidden files in the Windows Explorer. After a few attempts to examine the file, it turns out it is a dead end and does not contain the flag. However, one passage from the directive is interesting.
+
+<img src="https://0xffd700.com/bl-content/uploads/pages/0a625f9beeb6b6a0a8be0e9520faf29e/BSI.png" alt="">
+
+As long as deleted data has not been overwritten, it can be restored. A free online tool like [Disk Drill Data Recovery](https://www.cleverfiles.com/disk-drill-win.html) can make the files visible. And we were right; the previous owner deleted a file named after the flag.
+
+<img src="https://0xffd700.com/bl-content/uploads/pages/0a625f9beeb6b6a0a8be0e9520faf29e/disk_drill.png" alt="">
+</br>
+
+The flag is 
+```
+nland{Wer_hat_uns_verraten?_Metadaten!}
+```

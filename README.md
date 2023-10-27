@@ -28,7 +28,7 @@ Flag-Format: nland{}
 - [ ] Brainfuck Catpiler - Hard (Jen)
 
 ### Blue Team
-- [ ] USB Stick File Forensic - Medium (Jen)
+- [x] Bad Ducky (Recover deleted file) - Easy (Jen)
 - [x] Accounting (Excel Macro Malware)- Easy (Jen)
 - [ ] Malware Beacon Detection - Medium (Jen)
 - [ ] File format 1 - Easy (Kevin)
