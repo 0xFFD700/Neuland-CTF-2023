@@ -19,52 +19,63 @@ for (int i = 0; i < NUM_LEDS; i++) {
 
 void loop() {
 
-  color(0, 255, 0);
+  color(0, 255, 0); // green
   delay(2000);
-  color(255, 255, 0);
+  color(255, 255, 0); // yellow
   delay(2000);
-  color(255, 255, 0);
+  color(255, 255, 0); // yellow
   delay(2000);
-  color(0, 0, 255);
+  color(0, 0, 255); // blue
   delay(2000);
-  color(255, 0, 0);
+  color(0, 255, 0); // green
   delay(2000);
-  color(0, 255, 0);
+  color(255, 255, 0); // yellow
+  delay(2000);
+  color(255, 255, 0); // yellow
+  delay(2000);
+  color(0, 0, 255); // blue
   delay(2000);
 
   color(0, 0, 0);
-  
   delay(1000);
-  color(255, 0, 0);
+
+  color(255, 0, 0); // red
   delay(2000);
-  color(0, 0, 255);
+  color(0, 0, 255); // blue
   delay(2000);
-  color(51, 255, 255);
+  color(51, 255, 255); // light blue
   delay(2000);
-  color(255, 0, 255);
+  color(255, 0, 255); // pink
   delay(2000);
-  color(255, 255, 0);
+  color(255, 0, 0); // red
   delay(2000);
-  color(0, 0, 255);
+  color(0, 0, 255); // blue
+  delay(2000);
+  color(51, 255, 255); // light blue
+  delay(2000);
+  color(255, 0, 255); // pink
   delay(2000);
 
   color(0,0,0);
-
   delay(1000);
-  color(51, 255, 255);
+
+  color(51, 255, 255); // light blue
   delay(2000);
-  color(255, 0, 255);
+  color(255, 0, 255); // pink
   delay(2000);
-  color(0, 255, 0);
+  color(0, 255, 0); // green
   delay(2000);
-  color(255, 0, 0);
+  color(255, 0, 0); // red
   delay(2000);
-  color(255, 0, 255);
+  color(51, 255, 255); // light blue
   delay(2000);
-  color(51, 255, 255);
+  color(255, 0, 255); // pink
+  delay(2000);
+  color(0, 255, 0); // green
+  delay(2000);
+  color(255, 0, 0); // red
   delay(2000);
 
   color(0,0,0);
-
   delay(5000);
 }

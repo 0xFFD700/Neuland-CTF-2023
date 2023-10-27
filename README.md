@@ -25,7 +25,7 @@ Flag-Format: nland{}
 - [x] This is fine (Flag in image properties) - Easy (Jen)
 - [x] (^_^) (Obfuscated JS) - Easy (Fabi)
 - [x] Rick roll (Binary Data in YouTube Video) - Medium (Jen)
-- [ ] Brainfuck Catpiler - Hard (Jen)
+- [x] Catpiler (Brainfuck) - Hard (Jen)
 
 ### Blue Team
 - [x] Bad Ducky (Recover deleted file) - Easy (Jen)

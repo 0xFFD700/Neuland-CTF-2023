@@ -13,11 +13,11 @@ An LED-illuminated Christmas tree is provided to solve the task, which regularly
 
 With this information, we can create the following pattern:
 
-|   |   |    |   |    |   | 
-|---|---|---|---|---|---|
-| green | yellow | yellow | blue | red | green |
-| red | blue | light blue| pink | yellow | blue |
-| light blue | pink | green | red | pink | light blue |
+|   |   |    |   |   |   |   |   | 
+|---|---|---|---|---|---|---|---|
+| green | yellow | yellow | blue | green |  yellow | yellow | blue |
+| red | blue | light blue | pink | red | blue | light blue | pink |
+| light blue | pink | green | red | light blue | pink | green | red |
 
 A quick Google search shows that only a few cryptographic algorithms use colors as a form of representation. One of them is Hexahue, which uses the same colors.
 
@@ -26,4 +26,4 @@ Enter the color combination into an [online decoder](https://www.dcode.fr/hexahu
 <img src="https://0xffd700.com/bl-content/uploads/pages/8d3983d31ab9ba458b351d2e8dc8eaa9/hexahue.png" alt="">
 </br>
 
-The flag is ```nland{hoe}```
+The flag is ```nland{hoho}```
