@@ -1,0 +1,12 @@
+Higher and Lower
+
+Kategorie: PWN
+Schwierigkeit: Easy
+Author: Jen
+
+No one has guessed my number yet, maybe you can find another way to get the flag.
+
+You can test your solution locally. Connect to the server once it works to retrieve to flag:
+nc <server>
+
+higher_lower.c

@@ -1,0 +1,14 @@
+#### Higher and Lower - Easy
+
+*No one has guessed my number yet, maybe you can find another way to get the flag."
+
+DOC{higher_lower.c;Insert name of file;Insert description}
+
+</br>
+
+The program is the well-known children's game higher or lower. However, as the author teases in the description, there is probably no way to win the game fairly. In the enclosed C code, the flag is initially defined and then referenced in the main. Furthermore, the inefficient design decision was made to use an array to select the numbers. Our guessed number is used as an index for this array, and the respective position is output. Since the flag variable in the stack is right next to the array, and the input is not sanitized, we might have a chance to query the flag above it. Depending on the compiler, we print the segment by calling index *-1* or *11*, which is no longer in the array but outputs the surrounding variables.
+
+The flag is 
+```
+nland{practical_application_abandoned}
+```

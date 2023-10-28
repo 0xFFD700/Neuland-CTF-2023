@@ -36,6 +36,7 @@ Flag-Format: nland{}
 - [ ] File format 3 - Hard  (Kevin)
 
 ### PWN
+- [x] Higher and Lower (Array Index) - Easy (Jen)
 
 ### REV
 - [x] Login (Enter correct password) - Easy (Jen)
