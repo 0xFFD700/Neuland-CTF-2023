@@ -1,13 +1,25 @@
-FROM golang:1.20
+# Stage 1: golang builder
+FROM docker.io/library/golang:1.21 as build
+ARG BUILD_TYPE="openblas"
+ARG CGO_LDFLAGS="-lopenblas"
+
+RUN apt-get update -y && apt-get install -y --no-install-recommends libopenblas-dev musl-dev musl-tools
 
 WORKDIR /app
 COPY go.mod go.sum ./
+COPY go-llama.cpp ./go-llama.cpp
 RUN go mod download
 
 COPY *.go ./
-RUN CGO_ENABLED=0 GOOS=linux go build -o /application
+RUN BUILD_TYPE=$BUILD_TYPE make -C ./go-llama.cpp libbinding.a
+RUN CGO_LDFLAGS=$CGO_LDFLAGS GOOS=linux \
+    LIBRARY_PATH=$PWD/go-llama.cpp C_INCLUDE_PATH=$PWD/go-llama.cpp \
+    CC=musl-gcc go build --ldflags '-linkmode=external -extldflags=-static' -o /application
 
+# Stage 2: distroless
+FROM gcr.io/distroless/static-debian11
+COPY --from=build /application /
 
-EXPOSE 1337
 # Run
+EXPOSE 1337
 ENTRYPOINT ["/application"]
