@@ -1,0 +1,9 @@
+name: Kundendienst
+# Long form description.
+description: "Ich möchte diesen Teppich nicht kaufen, bitte!"
+# The flag
+flag: "nland{morbus_kobold}"
+# Task category. (one of hw, crypto, pwn, reversing, web, net, misc)
+category:
+  - misc
+  - ai
