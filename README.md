@@ -5,6 +5,7 @@ Flag-Format: nland{}
 
 ### Crypto
 - [x] RSA (Basic RSA) - Easy (Jen)
+- [x] Hash (MD5,SHA1,LM) - Easy (Jen)
 - [x] Secrets (Basic Encoding/Encryption) - Easy (Jen)
 - [x] All the Colors of Christmas (Hexahue Cipher) - Medium (Jen)
 - [x] FIPS Aesmussen - Hard (Dominik)
@@ -26,7 +27,7 @@ Flag-Format: nland{}
 - [x] This is fine (Flag in image properties) - Easy (Jen)
 - [x] (^_^) (Obfuscated JS) - Easy (Fabi)
 - [x] Rick roll (Binary Data in YouTube Video) - Medium (Jen)
-- [] (Blockchain) - Hard (Fabi)
+- [ ] (Blockchain) - Hard (Fabi)
 
 ### Blue Team
 - [x] Bad Ducky (Recover deleted file) - Easy (Jen)
@@ -39,6 +40,9 @@ Flag-Format: nland{}
 
 ### PWN
 - [x] Higher and Lower (Array Index) - Easy (Jen)
+- [ ] Easy (Jen)
+- [ ] Macht keinen Spaß - Medium (Dominik)
+- [ ] Hard (Jonny) 
 
 ### REV
 - [x] Login (Enter correct password) - Easy (Jen)
