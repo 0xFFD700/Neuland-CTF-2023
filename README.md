@@ -27,7 +27,7 @@ Flag-Format: nland{}
 - [x] This is fine (Flag in image properties) - Easy (Jen)
 - [x] (^_^) (Obfuscated JS) - Easy (Fabi)
 - [x] Rick roll (Binary Data in YouTube Video) - Medium (Jen)
-- [ ] (Blockchain) - Hard (Fabi)
+- [x] Immutable Mirror (Blockchain) - Hard (Fabi)
 
 ### Blue Team
 - [x] Bad Ducky (Recover deleted file) - Easy (Jen)
