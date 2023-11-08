@@ -1,0 +1,20 @@
+# Stage 1: ubuntu builder
+FROM docker.io/library/ubuntu:lts as build
+
+RUN apt-get update -y && \
+    apt-get install -y --no-install-recommends \
+        gcc-riscv64-linux-gnu qemu-user qemu-user-static qemu-system-riscv64 patchelf
+
+WORKDIR /app
+COPY riscy.c ld-linux-riscv64-lp64d.so.1 libc.so.6 ./
+
+RUN riscv64-linux-gnu-gcc riscy.c -o riscy-rv64 -march=rv64imac -march=rv64g && \
+    patchelf --set-rpath "$PWD" --set-interpreter "ld-linux-riscv64-lp64d.so.1" riscy-rv64
+
+# Stage 2: ubuntu qemu
+FROM docker.io/library/ubuntu:lts as build
+COPY --from=build /app/ /app
+
+# Run
+EXPOSE 1337
+ENTRYPOINT ["/usr/bin/qemu-riscv64", "/app/riscy-rv64"]

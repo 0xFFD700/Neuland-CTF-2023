@@ -41,7 +41,7 @@ Flag-Format: nland{}
 ### PWN
 - [x] Higher and Lower (Array Index) - Easy (Jen)
 - [x] Secure4Sure (Fromat String) - Easy (Jen)
-- [~] Riscy programming - Medium (Dominik)
+- [x] Riscy programming - Medium (Dominik)
 - [ ] Hard (Jonny) 
 
 ### REV
