@@ -1,0 +1,8 @@
+name: Riscy programming.
+# Long form description.
+description: "Yo dawg, I heard you like binary exploitation, so we put some risks into your risc, that you can exploit while you exploit."
+# The flag
+flag: "TODO."
+# Task category. (one of hw, crypto, pwn, reversing, web, net, misc)
+category:
+  - pwn
