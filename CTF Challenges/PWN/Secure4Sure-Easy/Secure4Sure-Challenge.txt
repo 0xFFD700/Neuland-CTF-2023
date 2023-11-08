@@ -1,0 +1,12 @@
+Secure4Sure
+
+Kategorie: PWN
+Schwierigkeit: Easy
+Author: Jen
+
+Works as intended?
+
+You can test your solution locally. Connect to the server once it works to retrieve to flag:
+nc <server>
+
+Secure4Sure.c

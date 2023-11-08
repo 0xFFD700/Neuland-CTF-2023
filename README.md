@@ -40,7 +40,7 @@ Flag-Format: nland{}
 
 ### PWN
 - [x] Higher and Lower (Array Index) - Easy (Jen)
-- [ ] Easy (Jen)
+- [x] Secure4Sure (Fromat String) - Easy (Jen)
 - [ ] Macht keinen Spaß - Medium (Dominik)
 - [ ] Hard (Jonny) 
 
@@ -51,6 +51,7 @@ Flag-Format: nland{}
 - [ ] String stacking (Kevin)
 
 ### Misc
+- [x] Kundendienst (KI) - Easy (Dominik)
 - [x] Lockpicking - Medium (Jen)
 - [ ] Birds Aren't Real - Medium (Jen)
 - [ ] [Benford's Law](https://en.wikipedia.org/wiki/Benford%27s_law) - Medium (Kevin)
