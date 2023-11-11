@@ -19,7 +19,7 @@ Flag-Format: nland{}
 ### Web
 - [x] Obfuscation 1 (Obfuscated JS) - Easy (Jen)
 - [x] InfoSec Academy (Local File Inclusion) - Easy (Fabi)
-- [x] Review (File Upload) - Medium (Fabi)
+- [x] Digital Odyssey (Insecure Token) - Medium (Fabi)
 - [x] Review (File Upload) - Hard (Fabi)
 - [x] Obfuscation 2 (Obfuscated JS) - Hard (Jen)
 
@@ -36,7 +36,7 @@ Flag-Format: nland{}
 - [ ] File format 1 - Easy (Kevin)
 - [ ] File format 2 - Medium  (Kevin)
 - [ ] File format 3 - Hard  (Kevin)
-- [x] KeePass (CVE-2023-24055) - Easy (Fabi)
+- [x] KeePass (CVE-2023-32784) - Easy (Fabi)
 
 ### PWN
 - [x] Higher and Lower (Array Index) - Easy (Jen)
