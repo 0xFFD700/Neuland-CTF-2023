@@ -1,7 +1,7 @@
 <?php
 $target_dir = "uploads/";
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
+if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_FILES["image"]["name"])) {
 
     $file_name = basename($_FILES["image"]["name"]);
 
@@ -30,7 +30,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 		die();
 	}
 
-	$file_id = uniqid();
 	$new_file_name = $target_dir . $file_name;
 
 	if (move_uploaded_file($_FILES["image"]["tmp_name"], $new_file_name)) {
@@ -39,5 +38,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     	header("Location: index.php?result=Sorry, there was an error uploading your file.&status=error");
 	}
 	die();
+} else if($_SERVER["REQUEST_METHOD"]) {
+ 	    header("Location: index.php?result=Thank you for your valuable feedback. We have successfully received your review. Your insights are important to us.&status=success");
+} else {
+	header("Location: index.php?result=Sorry, there was an error.&status=error");
 }
 ?>

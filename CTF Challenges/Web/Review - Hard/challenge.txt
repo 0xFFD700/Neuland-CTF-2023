@@ -4,4 +4,4 @@ Kategorie: Web
 Schwierigkeit: Hard
 Author: Fabi
 
-After our website was compromised, we had to redesign our backend. Unfortunately, we lost all our data, so we kindly ask you to share your review again. We are confident that our improved security measures keep us safe from hackers.
+"ByteBites Bistro" is a popular restaurant known for its delicious food and outstanding service. To maintain our high standards, we want to collect valuable feedback from our customers. Did you enjoy your stay with us?

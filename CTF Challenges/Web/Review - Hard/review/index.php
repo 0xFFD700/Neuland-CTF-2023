@@ -44,7 +44,7 @@
             </label>
                 </div>
                 <label for="image">Upload Image:</label>
-                <input type="file" id="image" name="image" accept="image/*" required>
+                <input type="file" id="image" name="image" accept="image/*">
                 <button type="submit">Submit Review</button>
             </form>
         </div>
