@@ -32,7 +32,7 @@ Flag-Format: nland{}
 ### Blue Team
 - [x] Bad Ducky (Recover deleted file) - Easy (Jen)
 - [x] Accounting (Excel Macro Malware)- Easy (Jen)
-- [ ] Malware Beacon Detection - Medium (Jen)
+- [x] Malware Beacon Detection - Medium (Jen)
 - [ ] File format 1 - Easy (Kevin)
 - [ ] File format 2 - Medium  (Kevin)
 - [ ] File format 3 - Hard  (Kevin)
