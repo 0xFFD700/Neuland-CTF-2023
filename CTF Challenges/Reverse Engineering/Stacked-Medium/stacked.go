@@ -70,6 +70,7 @@ So, if any of you have the 411 on where this galf is hiding, hit me up ASAP. Sli
     `
 
     fail := `Oh, snap! 🙈 It looks like you might've taken a wrong turn in the cyber-jungle and snagged the wrong galf. Your internet compass got a little wonky, you know how it is. 🧭😅
+    Or how real hackers would say: "Nix gibt's!"
 But hey, no worries, we're all about that trial and error life. We learn from our mishaps and come back even stronger. So, if anyone's got the deets on the actual galf location, hit me up, and let's get back on the grind. We'll laugh about this one day when we're sitting on the digital throne of victory. 💻👑
 Keep the faith, my internet warriors! You got this! 💪🌐 #GalfMisadventures #NextTimeForSure #StillStacked
     `
