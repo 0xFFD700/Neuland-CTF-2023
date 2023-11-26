@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  infosec_academy_easy:
+    build:
+      context: ./InfoSec Academy - Easy
+    ports:
+      - "2145:80"
+    restart: unless-stopped
+
+  digital_odyssey_medium:
+    build:
+      context: ./Digital Odyssey - Medium
+    ports:
+      - "7432:80"
+    restart: unless-stopped
+
+  review_hard:
+    build:
+      context: ./Review - Hard
+    ports:
+      - "1094:80"
+    restart: unless-stopped
+
