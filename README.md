@@ -33,9 +33,8 @@ Flag-Format: nland{}
 - [x] Bad Ducky (Recover deleted file) - Easy (Jen)
 - [x] Accounting (Excel Macro Malware)- Easy (Jen)
 - [x] Malware Beacon Detection - Medium (Jen)
-- [ ] File format 1 - Easy (Kevin)
-- [ ] File format 2 - Medium  (Kevin)
-- [ ] File format 3 - Hard  (Kevin)
+- [x] Broken File - Easy (Kevin)
+- [x] Broken File - Medium  (Kevin)
 - [x] KeePass (CVE-2023-32784) - Easy (Fabi)
 
 ### PWN
@@ -47,8 +46,8 @@ Flag-Format: nland{}
 ### REV
 - [x] Login (Enter correct password) - Easy (Jen)
 - [x] TicTacToe (Java Jar) - Easy (Jen)
-- [X] String stacking (Go) - Medium (Kevin)
-- [ ] License Key (Flutter Product Key) - Hard (Jen)
+- [x] String stacking (Go) - Medium (Kevin)
+- [x] License Key (Flutter Product Key) - Hard (Jen)
 
 ### Misc
 - [x] Kundendienst (KI) - Easy (Dominik)

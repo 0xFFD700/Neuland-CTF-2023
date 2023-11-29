@@ -1,0 +1,10 @@
+License Key
+
+Kategorie: Reverse Engineering
+Schwierigkeit: Hard
+Author: Jen
+
+I really want to use the app for free.
+Flag format nland{<Valid Activation Code>} 
+
+Download: app-release.apk

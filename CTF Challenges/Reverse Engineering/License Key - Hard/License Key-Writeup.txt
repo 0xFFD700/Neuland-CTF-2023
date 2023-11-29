@@ -1,0 +1,35 @@
+#### License Key - Hard
+
+*I really want to use the app for free. 
+Flag format nland{<Valid Activation Code>} *
+
+DOC{app-release.apk;App;App}
+
+</br>
+
+We received an Android Package Kit (APK) file to solve the task. After installing, you will be greeted with a page that asks you to enter a valid activation key. 
+
+<img src="https://0xffd700.com/bl-content/uploads/pages/c115de41c0f825ede7d713d2aff8c9f7/flutter_app.jpeg" alt="" width="40%">
+</br>
+You can also find out that the app was written with Flutter in the app's information. The internet tells us two things: a good Flutter decompiler has yet to be developed, and reverse engineering is complex. This is thanks, among other things, to the compiler optimization and the custom stack. There are a few ways to get there; the simplest is probably a mixture of the [reFlutter](https://github.com/Impact-I/reFlutter) project and decompiling with a standard APK tool like [jadx](https://github.com/skylot/jadx). This allows multiple strings to be extracted that look suspiciously like RegEx, the perfect tool to validate an activation key.
+
+<img src="https://0xffd700.com/bl-content/uploads/pages/c115de41c0f825ede7d713d2aff8c9f7/flutter_code.jpeg" alt="">
+
+- *Part 1:* `^(-)$|^(([Pp]?[a-h](x[a-h])?([2-7]|[18]=?[QRBNqrbn]))|([KQRBNkqrbn][a-h ]?[1-8]?x?[a-h][1-8]))[+#]?` matches valid chess moves
+- *Part 2:* `([0-9])` single-digit numbers from 0 to 9
+- *Part 3:* `([a-z])` lower case letters are accepted
+- *Part 4:* `([0-9]{2}/[0-9]{2}/[0-9]{4})` validates whether it is a date in the format DD/MM/YYYY
+- *Part 5:* The string "Regex_is_fun"
+
+Full regex: 
+```
+^(-)$|^(([Pp]?[a-h](x[a-h])?([2-7]|[18]=?[QRBNqrbn]))|([KQRBNkqrbn][a-h]?[1-8]?x?[a-h][1-8]))[+#]?(-)([0-9])(-)([a-z])(-)([0-9]{2}/[0-9]{2}/[0-9]{4})(-)(Regex_is_fun)$
+```
+
+The individual *if* statements are connected by a *-*. All strings following the scheme &lt;valid chess notation&gt;-&lt;numbers from 0-9&gt;-&lt;lower case a-z&gt-&lt;DD/MM/YYYY&gt;-&lt;string "Regex_is_fun"&gt; are accepted.
+</br>
+
+The flag is for example
+```
+nland{g4-5-b-06/06/2022-Regex_is_fun}
+```
