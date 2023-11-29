@@ -1,0 +1,16 @@
+#### TicTacToe - Easy
+
+*State of Game. </br>
+java -jar TicTacToe.jar
+*
+DOC{TicTacToe.jar;TicTacToe;TicTacToe}
+
+</br>
+To solve the task, we get a Java *jar* file that plays TicTacToe against us. The tasks indicate that, apart from winning and losing, there is another state that we have to reach to get the flag. We need to open the Java archive to take a closer look at the files. To do this, we can, for example, rename the file to a *ZIP* and then unzip it with 7ZIP. This gives us two *.class* files and the manifest. The *.class* files are not human-readable at the moment. To decompile them, you can use the Visual Studio Code Extension [“Decompiler”](https://github.com/tintinweb/vscode-decompiler) from tintinweb. The extension does exactly what it says: “Decompiles the $h\*! out of things”. IT decompiles the .class files into readable Java code. In the *TicTacToe$Board.class*, the game state *F* causes the flag to be displayed.
+
+<img src="https://0xffd700.com/bl-content/uploads/pages/c115de41c0f825ede7d713d2aff8c9f7/decompiled_jar.png" alt="">
+</br>
+The flag is 
+```
+nland{tH1nk_0Ut51d3_tH3_B0x}
+```

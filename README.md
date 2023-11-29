@@ -46,9 +46,9 @@ Flag-Format: nland{}
 
 ### REV
 - [x] Login (Enter correct password) - Easy (Jen)
-- [ ] .NET Product Key - Easy (Jen)
-- [ ] Packed + Obfuscated exe - Medium (Jen)
-- [ ] String stacking (Kevin)
+- [x] TicTacToe (Java Jar) - Easy (Jen)
+- [X] String stacking (Go) - Medium (Kevin)
+- [ ] License Key (Flutter Product Key) - Hard (Jen)
 
 ### Misc
 - [x] Kundendienst (KI) - Easy (Dominik)
