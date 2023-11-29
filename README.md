@@ -52,6 +52,4 @@ Flag-Format: nland{}
 ### Misc
 - [x] Kundendienst (KI) - Easy (Dominik)
 - [x] Lockpicking - Medium (Jen)
-- [ ] Birds Aren't Real - Medium (Jen)
-- [ ] [Benford's Law](https://en.wikipedia.org/wiki/Benford%27s_law) - Medium (Kevin)
 
