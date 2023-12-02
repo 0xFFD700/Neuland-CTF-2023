@@ -13,7 +13,7 @@ Flag-Format: nland{}
 ### OSINT
 - [x] Geoguessr (Find Photo Location) - Easy (Jen)
 - [x] For old times sake (WayBack Maschine) - Easy (Jen)
-- [ ] (WLAN Location) - Medium (Fabi)
+- [x] Traveler (WLAN Location) - Medium (Fabi)
 - [x] Dail in (DTMF Code in Video) - Hard (Jen)
 
 ### Web
