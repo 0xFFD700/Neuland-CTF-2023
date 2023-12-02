@@ -1,7 +1,7 @@
 FROM alpine:edge
 RUN apk update && apk upgrade
 RUN apk add php
-RUN apk add php81-fileinfo
+RUN apk add php-fileinfo
 
 WORKDIR /usr/src/myapp/
 

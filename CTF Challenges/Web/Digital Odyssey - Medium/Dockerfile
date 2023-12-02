@@ -1,7 +1,7 @@
 FROM alpine:edge
 RUN apk update && apk upgrade
 RUN apk add php
-RUN apk add php81-session 
+RUN apk add php-session 
 
 WORKDIR /usr/src/myapp/
 
