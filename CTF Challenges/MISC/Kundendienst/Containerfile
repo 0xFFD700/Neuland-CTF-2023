@@ -3,11 +3,12 @@ FROM docker.io/library/golang:1.21 as build
 ARG BUILD_TYPE="openblas"
 ARG CGO_LDFLAGS="-lopenblas"
 
-RUN apt-get update -y && apt-get install -y --no-install-recommends libopenblas-dev musl-dev musl-tools
+RUN apt-get update -y && apt-get install -y --no-install-recommends libopenblas-dev musl-dev musl-tools patch cmake
 
 WORKDIR /app
 COPY go.mod go.sum ./
 COPY go-llama.cpp ./go-llama.cpp
+# RUN git clone --recurse-submodules https://github.com/go-skynet/go-llama.cpp.git
 RUN go mod download
 
 COPY *.go ./
