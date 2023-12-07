@@ -21,3 +21,11 @@ services:
     ports:
       - "1175:1111"
     restart: unless-stopped
+
+  riscy:
+    build:
+      context: ./RISCy
+      dockerfile: Containerfile
+    ports:
+      - "2234:1337"
+    restart: unless-stopped

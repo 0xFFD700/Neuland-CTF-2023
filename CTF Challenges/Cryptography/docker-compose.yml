@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  fips_aesmussen:
+    build:
+      context: ./fips-aesmussen/challenge
+      dockerfile: Containerfile
+    ports:
+      - "9833:1337"
+    restart: unless-stopped

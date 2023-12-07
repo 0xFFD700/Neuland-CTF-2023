@@ -15,6 +15,5 @@ RUN chmod 755 Secure4Sure
 USER user
 
 EXPOSE 1111
-CMD socat TCP-LISTEN:1111,reuseaddr,fork,nodelay EXEC:"./Secure4Sure",stderr
 
-
+ENTRYPOINT ["/usr/bin/socat", "tcp-l:1111,reuseaddr,fork", "EXEC:'./Secure4Sure',pty,stderr"]

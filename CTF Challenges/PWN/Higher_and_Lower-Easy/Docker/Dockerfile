@@ -15,6 +15,5 @@ RUN chmod 755 higher_lower
 USER user
 
 EXPOSE 1111
-CMD socat TCP-LISTEN:1111,reuseaddr,fork,nodelay EXEC:"./higher_lower"
 
-
+ENTRYPOINT ["/usr/bin/socat", "tcp-l:1111,reuseaddr,fork", "EXEC:'./higher_lower',pty,stderr"]
