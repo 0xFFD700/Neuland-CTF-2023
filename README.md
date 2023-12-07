@@ -41,10 +41,11 @@ Flag-Format: nland{}
 - [x] Higher and Lower (Array Index) - Easy (Jen)
 - [x] Secure4Sure (Fromat String) - Easy (Jen)
 - [x] Riscy programming - Medium (Dominik)
-- [ ] Hard (Jonny) 
+- [X] Safe_Return - Hard (Jonny) 
 
 ### REV
 - [x] Login (Enter correct password) - Easy (Jen)
+- [X] Easy Bypass(.NET) -Easy (Jonny)  
 - [x] TicTacToe (Java Jar) - Easy (Jen)
 - [x] String stacking (Go) - Medium (Kevin)
 - [x] License Key (Flutter Product Key) - Hard (Jen)
