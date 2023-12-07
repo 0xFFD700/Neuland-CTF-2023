@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  kundendienst:
+    build:
+      context: ./Kundendienst
+      dockerfile: Containerfile
+    ports:
+      - "4453:1337"
+    restart: unless-stopped
