@@ -6,3 +6,5 @@ flag: "nland{plz_xzibit_xplo1t}"
 # Task category. (one of hw, crypto, pwn, reversing, web, net, misc)
 category:
   - pwn
+# Attachments to provide
+attachment: ['riscy.c']
