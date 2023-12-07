@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/sh
 
 while true; do
   find ./flask/uploads/ -type f -not -name 'admin' -delete

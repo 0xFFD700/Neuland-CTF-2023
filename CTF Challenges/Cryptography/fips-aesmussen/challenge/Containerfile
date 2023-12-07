@@ -1,0 +1,15 @@
+# syntax=docker/dockerfile:1
+
+FROM python:alpine
+RUN adduser -D worker
+USER worker
+
+WORKDIR /app
+
+COPY requirements.txt requirements.txt
+RUN pip install --user -r requirements.txt
+ENV PATH="/home/worker/.local/bin:${PATH}"
+
+COPY --chown=worker:worker . .
+
+CMD [ "/app/start.sh" ]
