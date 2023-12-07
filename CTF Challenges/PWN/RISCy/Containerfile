@@ -1,9 +1,9 @@
 # Stage 1: ubuntu builder
-FROM docker.io/library/ubuntu:lts as build
+FROM docker.io/library/ubuntu:latest as build
 
 RUN apt-get update -y && \
     apt-get install -y --no-install-recommends \
-        gcc-riscv64-linux-gnu qemu-user qemu-user-static qemu-system-riscv64 patchelf
+        crossbuild-essential-riscv64 patchelf
 
 WORKDIR /app
 COPY riscy.c ld-linux-riscv64-lp64d.so.1 libc.so.6 ./
@@ -12,9 +12,16 @@ RUN riscv64-linux-gnu-gcc riscy.c -o riscy-rv64 -march=rv64imac -march=rv64g && 
     patchelf --set-rpath "$PWD" --set-interpreter "ld-linux-riscv64-lp64d.so.1" riscy-rv64
 
 # Stage 2: ubuntu qemu
-FROM docker.io/library/ubuntu:lts as build
+FROM docker.io/library/ubuntu:latest as runner
+
+RUN apt-get update -y && \
+    apt-get install -y --no-install-recommends \
+        socat qemu-user qemu-user-static qemu-system-riscv64
+
 COPY --from=build /app/ /app
+COPY flag.txt /app/flag.txt
+WORKDIR /app
 
 # Run
 EXPOSE 1337
-ENTRYPOINT ["/usr/bin/qemu-riscv64", "/app/riscy-rv64"]
+ENTRYPOINT ["/usr/bin/socat", "tcp-l:1337,reuseaddr,fork", "EXEC:'/usr/bin/qemu-riscv64 ./riscy-rv64',pty,stderr"]
