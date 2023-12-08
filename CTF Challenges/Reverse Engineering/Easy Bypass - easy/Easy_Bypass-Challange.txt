@@ -6,4 +6,4 @@ Author: Jonny
 
 Can you Bypass the authentication and find my Flag ?
 
-Download: Easy_Bypass.exe
+Download: Easy_Bypass.exe and Easy Bypass.dll. You may need to install .NET 5 if you donj't have it.
