@@ -13,6 +13,6 @@ RUN gcc -m32 challange.c -o challange -no-pie -fno-stack-protector
 RUN chmod 755 challange
 
 USER user
-
+CMD echo "nland{G0_TO_J0NNy_And_Say_KinkoFe}" > /home/user/flag.txt
 EXPOSE 1111
 CMD socat TCP-LISTEN:1111,reuseaddr,fork,nodelay EXEC:"./challange",stderr
