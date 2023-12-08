@@ -1,0 +1,10 @@
+Safe_Return
+
+Kategorie: PWN
+Schwierigkeit: Hard
+Author: Jonny
+
+There is always a safe place to return :) .
+
+You can test your exploit locally,but you should use the provided unless you want to make it extra hard :). The Flag is in the user home directory. To connect to the Server:
+nc <server>
