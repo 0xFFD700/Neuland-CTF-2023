@@ -1,11 +1,9 @@
-FROM alpine:edge
-RUN apk update && apk upgrade
-RUN apk add gcc socat musl-dev libc-dev
-
+FROM ubuntu:latest
+RUN apt-get update -y && \
+    apt-get install -y --no-install-recommends \
+        build-essential socat
+RUN useradd -ms /bin/nologin user
 WORKDIR /usr/src/myapp/
-
-RUN addgroup -S user && \
-    adduser -S -G user user
 
 COPY Secure4Sure.c .
 RUN gcc Secure4Sure.c -o Secure4Sure
