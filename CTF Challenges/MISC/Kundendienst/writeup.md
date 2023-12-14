@@ -1,4 +1,8 @@
 # Kundendienst - Writeup
+
+> N.B.: This challenge was ~~broken~~ unavailable during most of the CTF, due
+> to ~~bad coding~~ technical issues. We apologize for any inconveniences. 
+
 Are you bored by always the same, boring CTF challenges? Always demanding you 
 put in the hard work and effort, so you can get your precious flag, just like 
 a monkey struggling for some banana crumbs? Like some sort of human test 
